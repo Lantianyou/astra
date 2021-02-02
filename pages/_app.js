@@ -1,14 +1,15 @@
-import '../styles/globals.css'
-import Header from '../components/header'
+import "../styles/globals.css";
+import Header from "../components/header";
 
 function MyApp({ Component, pageProps }) {
-  return (<>
-    <Header />
-    <main className="max-w-xl container">
-      <Component {...pageProps} />
-    </main>
+  return (
+    <>
+      <Header />
+      <main className="max-w-xl container">
+        <Component {...pageProps} />
+      </main>
     </>
   );
-  }
+}
 
-  export default MyApp
+export default MyApp;
