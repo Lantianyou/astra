@@ -1,4 +1,10 @@
-function Profile({ name, title, description }) {
+type Props = {
+  name: string,
+  title: string,
+  description: string
+}
+
+function Profile({ name, title, description }:Props) {
   return (
     <div>
       <h2>

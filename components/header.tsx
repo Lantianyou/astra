@@ -3,7 +3,7 @@ import { brandName } from "../constant";
 
 function Header() {
   return (
-    <header className="flex justify-between max-w-screen-xl mx-auto my-10 bg-black">
+    <header className="flex justify-between max-w-screen-xl mx-auto my-10">
       <Link href="/">
         <a className="">{brandName}</a>
       </Link>
