@@ -2,9 +2,9 @@
   "name": "astra",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "next": "next dev",
-    "build": "tsc && vite build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "serve": "vite preview"
   },
   "dependencies": {
